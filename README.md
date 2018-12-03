@@ -1,4 +1,4 @@
-#VersaTeach test docker environment:
+# VersaTeach test docker environment:
 
 It is important to maintain the versateach folder with the
 Dockerfile to make sure that the folder is mounted to the
@@ -7,7 +7,7 @@ not being shared between the host machine and the Docker
 container. This container will also download Maven and Spring
 so that it is easy to create REST services.
 
-# NEW COWBOY INSTRUCTIONS:
+## NEW COWBOY INSTRUCTIONS:
 
 Run the following commands:
     make build
@@ -33,7 +33,8 @@ TODO 12/2/2018:
       Maybe another page that looks like the examples.
 
 ------------------ Ignore below for now --------------------------
-#Prerequisites:
+
+## Prerequisites:
     You need to download Docker for your operating system.
 
     Windows:
@@ -46,13 +47,13 @@ TODO 12/2/2018:
         Depending on your distro, might have to run different
         commands.
 
-#Instructions to build:
+## Instructions to build:
     There is a Makefile located in the top directory of this
     project. It contains a target called `build`. To create
     the `versateach` Docker image, run:
         make build
 
-#Instructions to run:
+## Instructions to run:
     After a successful build, run:
         make run
 
